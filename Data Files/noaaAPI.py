@@ -1,9 +1,8 @@
-# for updating ETL
 import requests
 import json
 import pandas as pd
 
-# end datetime of previous pull and new start date
+# end datetime and start datetime for the data request - change these for new intervals
 start_date = '2022-11-01T00:00:00'
 end_date = date.today().isoformat() + 'T00:00:00'
 
